@@ -1,0 +1,89 @@
+@media screen and (max-width: 700px) {
+	.container{
+		max-width: 100%;
+		flex-direction: column;
+		position: absolute;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+	}
+	.container .leftSide .profile{
+		min-width: 250px;
+		width: 100%;
+		padding: 25px;
+		text-align: center;
+	}
+	.container .leftSide .contacts {
+		font-size: 19px;
+	}
+	.education .place h3{
+		font-size: 20px;
+	}
+	.rightSide .education .year, .rightSide .education .place{
+		display: inline-block;
+	}
+	.rightSide .about p{
+		font-size: 20px;
+	}
+	.rightSide .interests ul li {
+		text-align: center;
+		margin-left: 10px;
+	}
+	.rightSide .interests ul li:first-of-type{
+		margin-left: 0;
+	}
+
+	.rightSide .skills {
+		text-align: center;
+	}
+	.rightSide .skills .skill{
+		display: inline-block;
+	}
+	.rightSide .skills .skill .text{
+		text-align: left;
+		display: block;
+		width: auto;
+	}
+
+	.box{
+		margin: 30px 0;
+	}
+	.title{
+		text-transform: none;
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (min-width: 550px) {
+	.rightSide .skills .skill {
+		font-size: 18px;
+	}
+	.container .leftSide{
+		padding: 35px 50px;
+		text-align: center;
+	}
+	.container .leftSide .contacts {
+		text-align: left;
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+}
+@media screen and (min-width: 700px) {
+	.container .leftSide .contacts {
+		text-align: left;
+		margin: 0;
+		width: 100%;
+	}
+}
