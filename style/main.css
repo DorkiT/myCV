@@ -1,0 +1,160 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #FFFBFE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 100px 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+.container{
+	max-width: 1200px;
+	background: #FFFBFE;
+	min-height: 100px;
+	position: relative;
+	width: 100%;
+	display: flex;
+	box-shadow: 5px 5px 10px #055843;
+}
+.container .leftSide{
+	background-color: #73BF9C;
+	min-width: 350px;
+	padding: 40px;
+	color: #FFFBFE;
+}
+.container .rightSide{
+	/* color: #56575a; */
+	color: #00241B;
+	padding: 0 50px;
+	width: 100%;
+}
+.leftSide .profile{
+	margin-bottom: 25px;
+}
+.leftSide .profile hr{
+	border-color: #0b5e49;
+	margin: 10px 0;
+}
+.leftSide .profile .img_box{
+	text-align: center;
+}
+.leftSide .profile .img_box img{
+	width: 200px;
+	border-radius: 35%;
+	margin-bottom: 30px;
+}
+.left_box{
+	margin-top: 100px;
+}
+.contacts ul li {
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+.contacts ul li > * {
+	display: inline-block;
+	vertical-align:  middle;
+}
+
+
+.rightSide .about p{
+	text-indent: 25px;
+}
+
+.rightSide .title{
+	color: #47b64d;
+}
+.rightSide .interests ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.rightSide .interests ul li{
+	font-size: 20px
+}
+.rightSide .interests ul li .icon_int {
+	color: #1bd124;
+}
+.rightSide .education {
+	display: flex;
+	flex-direction: column;
+}
+.rightSide .education .place{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.rightSide .education .year {
+	min-width: 125px;
+	display: flex;
+	align-items: center;
+}
+.rightSide .education .spec{
+	color: #57c592;
+}
+.rightSide .skills .skill {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.rightSide .skills .skill .text{
+	width: 100px;
+}
+.rightSide .skills .skill .progress {
+	display: inline-block;
+	width: 200px;
+	background: #00241B;
+	height: 8px;
+	position: relative;
+	overflow: hidden;
+}
+.rightSide .skills .skill .progress div{
+	background-color: #47b64d;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	animation-duration: 3s;
+	animation-name: progress;
+}
+
+
+@keyframes progress{
+	from{
+		left: -100%;
+	} 
+	to{
+		left: 0;
+	}
+}
+
+
+
+
+.box{
+	margin: 50px;
+}
+.title{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	letter-spacing: 1.5px;
+}
+.icon{
+	position: relative;
+	/* left: -2px */
+	font-size: 15px;
+	width: 20px;
+}
+.hidden-text{
+	color: #848c90;
+}
