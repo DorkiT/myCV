@@ -55,7 +55,6 @@
 
 }
 
-
 @media screen and (min-width: 550px) {
 	.rightSide .skills .skill {
 		font-size: 18px;
@@ -78,7 +77,9 @@
 		top: 0;
 		left: 0;
 	}
-
+	#btn-points{
+		background-color: #73BF9C;
+	}
 }
 @media screen and (min-width: 700px) {
 	.container .leftSide .contacts {
