@@ -52,7 +52,9 @@
 		text-transform: none;
 		text-align: center;
 	}
-
+	#btn-points{
+		background-color: #73BF9C;
+	}
 }
 
 @media screen and (min-width: 550px) {
@@ -76,9 +78,6 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-	}
-	#btn-points{
-		background-color: #73BF9C;
 	}
 }
 @media screen and (min-width: 700px) {
