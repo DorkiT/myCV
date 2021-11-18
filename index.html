@@ -48,8 +48,7 @@
 					 I worked with nodeJs on practical lessons at the university. Like to make logic for programs,
 					  but need to refresh definitions of special words. Don't have bad habits and I am opened for new knowledge.<br><br>
 					There you can find few projects on NodeJS:
-					<a href="https://github.com/DorkiT/nodejs.git" id="link_git">NodeJs Project<span id="hidden-advice">Don't think, just DO it!</span></a>
-					<!-- <span id="hidden-advice">Don't think, just DO it!</span> -->
+					<a href="https://github.com/DorkiT/nodejs.git" id="link_git">NodeJs Project</a>
 				</p>
 			</div>
 			<div class="education box">
@@ -126,9 +125,24 @@
 				</div>
 			</div>
 		</div>
+
+		<div id="btn-box">
+			Print
+		</div>
+		<button id="btn-points">&#10247</button>
 	</div>
 
 
 	<script src="https://kit.fontawesome.com/3eb4283e91.js" crossorigin="anonymous"></script>
+	<script>
+		var button = document.getElementById('btn-points');
+		var box = document.getElementById('btn-box');
+		button.onclick = function(){
+			box.classList.toggle('active');
+		}
+		box.onclick = function(){
+			window.print();
+		}
+	</script>
 </body>
 </html>
